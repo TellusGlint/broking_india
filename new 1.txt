@@ -1,0 +1,118 @@
+80bf49
+
+52c306
+
+
+
+<div class="sign-form">
+            <form class="form-group mb-0" action="#">
+              <input class="form-control mb-25" type="text" name="yourname" placeholder="User Name">
+              <input class="form-control mb-25" type="email" name="email" placeholder="Email">
+			  <input class="form-control" type="text" name="mobile" placeholder="Mobile No.">
+              <div class="custom-control custom-checkbox mr-sm-2 d-flex mt-30 mb-20">
+                <input type="checkbox" class="custom-control-input" id="remember">
+                <label class="custom-control-label ml-2" for="remember">I accept the <a href="">Terms and Conditions</a></label>                
+              </div>
+              <button class="btn btn-primary w-100 mb-40" type="submit">Register Now</button>            
+            </form>
+          </div>
+		  
+		  
+		  
+		  <script>
+$(function() {
+  $('.smw-table').addClass('table table-striped table-bordered datatable');
+  $('div.table-striped').attr('id', 'zero_config');
+
+});
+
+</script>
+
+
+
+
+<div id="login-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">						
+						<div class="modal-body">
+							<div class="text-center bg-info p-3">
+								<p class="text-white mb-0 text-left"> Buy RELIANCE.NS  - Price Rs.21160.30</p>
+							</div>
+							<form class="form-horizontal">
+                                <div class="card-body pb-0">                                    
+                                    <div class="form-group row">                                       
+                                        <div class="col-sm-12">
+                                            <input name="group4" type="radio" id="customControlValidation2" name="radio-stacked" class="with-gap material-inputs material-inputs radio-col-red" />
+                                            <label for="customControlValidation2" class="mb-0 mt-2">Market</label>
+                                            <input name="group4" type="radio" id="customControlValidation3" name="radio-stacked" class="with-gap material-inputs material-inputs radio-col-red" />
+                                            <label for="customControlValidation3" class="mb-0 mt-2">Limit</label>
+                                        </div>										
+                                    </div>
+									<div class="form-group row">
+										<div class="col-md-4">
+											<div class="form-group">
+											 <label>Quantity</label>
+												<input type="number" class="form-control" value="6029">
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+											 <label>Price</label>
+												<input type="number" class="form-control" value="6029">
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+											 <label>Total</label>
+												<input type="number" class="form-control" value="6029">
+											</div>
+										</div>
+									</div>
+                                </div>
+                                <hr>
+                                <div class="card-body pt-0">
+                                    <div class="form-group mb-0  text-right">
+                                        <button type="submit" class="btn btn-success waves-effect waves-light">Buy</button>
+                                        <button type="submit" class="btn btn-dark waves-effect waves-light">Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+
+						</div>
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			
+			<script>
+  (function ($) {
+    $(document).ready(function() {
+      var $widget = $('#<?php print $widgetId?>');
+      $widget.one('psmwReadyGlobal', function (event) {
+        $widget.tablesort();
+        $widget.find('th.smw-tablesort').data('sortBy', premiumStockMarketWidgetsPlugin.tablesortGetValue);
+      });
+    });
+  })(jQuery);
+  
+  $(document).ready(function(){   
+    $("#table-search").on('click','.btnSelect',function(){    
+         var currentRow=$(this).closest("tr");
+         var col3=currentRow.find("td:eq(2)").text();
+       $('a.btnSelect').attr('data-id', currentRow.find("td:eq(2)").text());
+    });
+	 $('#login-modal').on('show.bs.modal', function (e) {
+        var currentRow=$(this).closest("tr");
+         var col1=currentRow.find("td:eq(1)").text();
+		 var col2=currentRow.find("td:eq(2)").text();
+		 var col3=currentRow.find("td:eq(3)").text();
+        $.ajax({
+            type : 'post',
+            url : 'pass_record.php', //Here you will fetch records 
+            data :  {col1:col1, col2:col2, col3:col3}, //Pass $id
+            success : function(data){
+            $('.fetched-data').html(data);//Show fetched data from database
+            }
+        });
+     });
+});
+</script>

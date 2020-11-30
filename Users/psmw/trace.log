@@ -1,0 +1,949 @@
+[2017-11-03T12:17:58+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:17:58+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:17:58+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:17:58+01:00]: Getting data for AAPL (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:58+01:00]: Getting data for AAPL (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:58+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:17:59+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:17:59+01:00]: Getting data for MSFT (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Getting data for TSLA (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Getting data for GOOG (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:17:59+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Getting data for GOOG (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:17:59+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:17:59+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:17:59+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:17:59+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:17:59+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:17:59+01:00]: Getting data for TXN () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TXN?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:17:59+01:00]: Getting data for III () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/III?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:00+01:00]: Getting data for AAPL () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:00+01:00]: Getting data for MSFT () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/MSFT?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:00+01:00]: Getting data for TSLA () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSLA?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:01+01:00]: Getting data for GOOG () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOG?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:01+01:00]: Getting data for EBAY () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/EBAY?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:01+01:00]: Getting data for TSCO.L () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSCO.L?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:02+01:00]: Getting data for FB () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/FB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:02+01:00]: Getting data for TWTR () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TWTR?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:03+01:00]: Getting data for CS () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/CS?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:03+01:00]: Getting data for JPM () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/JPM?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:03+01:00]: Getting data for GE () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/GE?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:04+01:00]: Getting data for DB () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/DB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:18:17+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:18:17+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:18:17+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:18:17+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:18:17+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:18:17+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:18:17+01:00]: Reading data for TXN from cache
+[2017-11-03T12:18:17+01:00]: Reading data for III from cache
+[2017-11-03T12:18:17+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:18:17+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:18:17+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:18:17+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:18:17+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:18:17+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:18:17+01:00]: Reading data for TSCO.L from cache
+[2017-11-03T12:18:17+01:00]: Reading data for FB from cache
+[2017-11-03T12:18:17+01:00]: Reading data for TWTR from cache
+[2017-11-03T12:18:17+01:00]: Reading data for CS from cache
+[2017-11-03T12:18:17+01:00]: Reading data for JPM from cache
+[2017-11-03T12:18:17+01:00]: Reading data for GE from cache
+[2017-11-03T12:18:17+01:00]: Reading data for DB from cache
+[2017-11-03T12:29:15+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for AAPL (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for AAPL (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:15+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:29:15+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for TSLA (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for GOOG (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:15+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:29:15+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:15+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:16+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:29:16+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:16+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:29:16+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:29:16+01:00]: Getting data for TSLA (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-03T12:29:16+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:29:16+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:29:16+01:00]: Getting data for TXN () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TXN?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:16+01:00]: Getting data for III () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/III?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:16+01:00]: Getting data for AAPL () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:17+01:00]: Getting data for MSFT () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/MSFT?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:17+01:00]: Getting data for TSLA () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TSLA?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:17+01:00]: Getting data for GOOG () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/GOOG?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:18+01:00]: Getting data for EBAY () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/EBAY?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:18+01:00]: Getting data for TSCO.L () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TSCO.L?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:19+01:00]: Getting data for FB () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/FB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:19+01:00]: Getting data for TWTR () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TWTR?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:19+01:00]: Getting data for CS () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/CS?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:20+01:00]: Getting data for JPM () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/JPM?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:20+01:00]: Getting data for GE () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/GE?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:29:20+01:00]: Getting data for DB () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/DB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:30:20+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:30:20+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:30:20+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:30:20+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:30:20+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:30:20+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:30:20+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:30:20+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:30:20+01:00]: Reading data for TXN from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for III from cache
+[2017-11-03T12:30:20+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:30:20+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:30:20+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:30:20+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:30:20+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:30:20+01:00]: Reading data for TSCO.L from cache
+[2017-11-03T12:30:21+01:00]: Reading data for FB from cache
+[2017-11-03T12:30:21+01:00]: Reading data for TWTR from cache
+[2017-11-03T12:30:21+01:00]: Reading data for CS from cache
+[2017-11-03T12:30:21+01:00]: Reading data for JPM from cache
+[2017-11-03T12:30:21+01:00]: Reading data for GE from cache
+[2017-11-03T12:30:21+01:00]: Reading data for DB from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:31:51+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:31:51+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:31:51+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:31:51+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:31:51+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:31:51+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:31:51+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:31:51+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:31:51+01:00]: Reading data for TXN from cache
+[2017-11-03T12:31:51+01:00]: Reading data for III from cache
+[2017-11-03T12:31:51+01:00]: Reading data for AAPL from cache
+[2017-11-03T12:31:51+01:00]: Reading data for MSFT from cache
+[2017-11-03T12:31:51+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:31:51+01:00]: Reading data for TSLA from cache
+[2017-11-03T12:31:51+01:00]: Reading data for GOOG from cache
+[2017-11-03T12:31:51+01:00]: Reading data for EBAY from cache
+[2017-11-03T12:31:51+01:00]: Reading data for TSCO.L from cache
+[2017-11-03T12:31:51+01:00]: Reading data for FB from cache
+[2017-11-03T12:31:51+01:00]: Reading data for TWTR from cache
+[2017-11-03T12:31:51+01:00]: Reading data for CS from cache
+[2017-11-03T12:31:51+01:00]: Reading data for JPM from cache
+[2017-11-03T12:31:51+01:00]: Reading data for GE from cache
+[2017-11-03T12:31:51+01:00]: Reading data for DB from cache
+[2017-11-11T11:03:12+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:03:12+01:00]: Getting data for TSLA (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1d&interval=5m&indicators=close
+[2017-11-11T11:03:13+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:03:13+01:00]: Getting data for FB (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=FB&range=1d&interval=5m&indicators=close
+[2017-11-11T11:03:13+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:13+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:13+01:00]: Reading data for FB from cache
+[2017-11-11T11:03:13+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:13+01:00]: Getting data for AAPL (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:13+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:13+01:00]: Getting data for AAPL (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:13+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:13+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:13+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:13+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:13+01:00]: Getting data for GOOG (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:14+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:14+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:14+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:14+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:14+01:00]: Getting data for GOOG (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:14+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:14+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:14+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:14+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:14+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:03:14+01:00]: Getting data for EBAY (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:03:14+01:00]: Getting data for TXN,III,AAPL,FB,TSLA,MSFT,GOOG,EBAY,TSCO.L,TWTR,CS,JPM,GE,DB () from server https://query2.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=TXN,III,AAPL,FB,TSLA,MSFT,GOOG,EBAY,TSCO.L,TWTR,CS,JPM,GE,DB&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2017-11-11T11:03:14+01:00]: Getting data for TXN () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TXN?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:15+01:00]: Getting data for III () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/III?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:15+01:00]: Getting data for AAPL () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:15+01:00]: Getting data for FB () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/FB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:16+01:00]: Getting data for TSLA () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSLA?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:16+01:00]: Getting data for MSFT () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/MSFT?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:16+01:00]: Getting data for GOOG () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOG?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:17+01:00]: Getting data for EBAY () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/EBAY?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:17+01:00]: Getting data for TSCO.L () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSCO.L?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:17+01:00]: Getting data for TWTR () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/TWTR?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:18+01:00]: Getting data for CS () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/CS?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:18+01:00]: Getting data for JPM () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/JPM?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:18+01:00]: Getting data for GE () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/GE?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:19+01:00]: Getting data for DB () from server https://query2.finance.yahoo.com/v10/finance/quoteSummary/DB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for FB from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for FB from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for FB from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for FB from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:03:22+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:03:22+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:22+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:22+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:22+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:03:22+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TXN from cache
+[2017-11-11T11:03:22+01:00]: Reading data for III from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for FB from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:22+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:22+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:03:22+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:03:22+01:00]: Reading data for CS from cache
+[2017-11-11T11:03:22+01:00]: Reading data for JPM from cache
+[2017-11-11T11:03:22+01:00]: Reading data for GE from cache
+[2017-11-11T11:03:22+01:00]: Reading data for DB from cache
+[2017-11-11T11:03:22+01:00]: Reading data for TXN from cache
+[2017-11-11T11:03:22+01:00]: Reading data for III from cache
+[2017-11-11T11:03:22+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:03:22+01:00]: Reading data for FB from cache
+[2017-11-11T11:03:23+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:03:23+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:03:23+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:03:23+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:03:23+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:03:23+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:03:23+01:00]: Reading data for CS from cache
+[2017-11-11T11:03:23+01:00]: Reading data for JPM from cache
+[2017-11-11T11:03:23+01:00]: Reading data for GE from cache
+[2017-11-11T11:03:23+01:00]: Reading data for DB from cache
+[2017-11-11T11:06:55+01:00]: Reading data for FB from cache
+e
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for FB from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for FB from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for FB from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:06:55+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:06:55+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:06:55+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:06:55+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:06:55+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:06:55+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TXN from cache
+[2017-11-11T11:06:55+01:00]: Reading data for III from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for FB from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:06:55+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:06:55+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:06:55+01:00]: Reading data for CS from cache
+[2017-11-11T11:06:55+01:00]: Reading data for JPM from cache
+[2017-11-11T11:06:55+01:00]: Reading data for GE from cache
+[2017-11-11T11:06:55+01:00]: Reading data for DB from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TXN from cache
+[2017-11-11T11:06:55+01:00]: Reading data for III from cache
+[2017-11-11T11:06:55+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:06:55+01:00]: Reading data for FB from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:06:55+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:06:55+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:06:55+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:06:55+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:06:55+01:00]: Reading data for CS from cache
+[2017-11-11T11:06:55+01:00]: Reading data for JPM from cache
+[2017-11-11T11:06:55+01:00]: Reading data for GE from cache
+[2017-11-11T11:06:55+01:00]: Reading data for DB from cache
+[2017-11-11T11:09:11+01:00]: Getting data for FB (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=FB&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for TSLA (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for TSLA (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for FB (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=FB&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:11+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:11+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:09:11+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:11+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:11+01:00]: Getting data for AAPL (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for AAPL (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:11+01:00]: Getting data for AAPL (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Getting data for MSFT (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Getting data for GOOG (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Getting data for EBAY (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:12+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:12+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:12+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:12+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:12+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:12+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:12+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:09:12+01:00]: Getting data for TXN,III,AAPL,FB,TSLA,MSFT,GOOG,EBAY,TSCO.L,TWTR,CS,JPM,GE,DB () from server https://query2.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=TXN,III,AAPL,FB,TSLA,MSFT,GOOG,EBAY,TSCO.L,TWTR,CS,JPM,GE,DB&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2017-11-11T11:09:13+01:00]: Reading data for TXN from cache
+[2017-11-11T11:09:13+01:00]: Reading data for III from cache
+[2017-11-11T11:09:13+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:13+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:13+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:13+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:13+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:13+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:09:13+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:09:13+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:09:13+01:00]: Reading data for CS from cache
+[2017-11-11T11:09:13+01:00]: Reading data for JPM from cache
+[2017-11-11T11:09:13+01:00]: Reading data for GE from cache
+[2017-11-11T11:09:13+01:00]: Reading data for DB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:19+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:09:19+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:19+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:09:19+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:19+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:19+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TXN from cache
+[2017-11-11T11:09:19+01:00]: Reading data for III from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:19+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:19+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:09:19+01:00]: Reading data for CS from cache
+[2017-11-11T11:09:19+01:00]: Reading data for JPM from cache
+[2017-11-11T11:09:19+01:00]: Reading data for GE from cache
+[2017-11-11T11:09:19+01:00]: Reading data for DB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TXN from cache
+[2017-11-11T11:09:19+01:00]: Reading data for III from cache
+[2017-11-11T11:09:19+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:09:19+01:00]: Reading data for FB from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:09:19+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:09:19+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:09:19+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:09:19+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:09:19+01:00]: Reading data for CS from cache
+[2017-11-11T11:09:19+01:00]: Reading data for JPM from cache
+[2017-11-11T11:09:19+01:00]: Reading data for GE from cache
+[2017-11-11T11:09:19+01:00]: Reading data for DB from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:25+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:25+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:25+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:25+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:25+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:25+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:25+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TXN from cache
+[2017-11-11T11:10:25+01:00]: Reading data for III from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:25+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:25+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:10:25+01:00]: Reading data for FB from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:10:25+01:00]: Reading data for CS from cache
+[2017-11-11T11:10:25+01:00]: Reading data for JPM from cache
+[2017-11-11T11:10:25+01:00]: Reading data for GE from cache
+[2017-11-11T11:10:25+01:00]: Reading data for DB from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TXN from cache
+[2017-11-11T11:10:25+01:00]: Reading data for III from cache
+[2017-11-11T11:10:25+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:25+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:25+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:25+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:10:25+01:00]: Reading data for FB from cache
+[2017-11-11T11:10:25+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:10:25+01:00]: Reading data for CS from cache
+[2017-11-11T11:10:25+01:00]: Reading data for JPM from cache
+[2017-11-11T11:10:25+01:00]: Reading data for GE from cache
+[2017-11-11T11:10:25+01:00]: Reading data for DB from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:27+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:27+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:27+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:27+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:27+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TXN from cache
+[2017-11-11T11:10:27+01:00]: Reading data for III from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:27+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:27+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:10:27+01:00]: Reading data for FB from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:10:27+01:00]: Reading data for CS from cache
+[2017-11-11T11:10:27+01:00]: Reading data for JPM from cache
+[2017-11-11T11:10:27+01:00]: Reading data for GE from cache
+[2017-11-11T11:10:27+01:00]: Reading data for DB from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TXN from cache
+[2017-11-11T11:10:27+01:00]: Reading data for III from cache
+[2017-11-11T11:10:27+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:10:27+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:10:27+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:10:27+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:27+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:10:27+01:00]: Reading data for FB from cache
+[2017-11-11T11:10:27+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:10:27+01:00]: Reading data for CS from cache
+[2017-11-11T11:10:27+01:00]: Reading data for JPM from cache
+[2017-11-11T11:10:27+01:00]: Reading data for GE from cache
+[2017-11-11T11:10:27+01:00]: Reading data for DB from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:12:43+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:12:43+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:12:43+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:12:43+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:12:43+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:12:43+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TXN from cache
+[2017-11-11T11:12:43+01:00]: Reading data for III from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:12:43+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:12:43+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:12:43+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:12:43+01:00]: Reading data for FB from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:12:43+01:00]: Reading data for CS from cache
+[2017-11-11T11:12:43+01:00]: Reading data for JPM from cache
+[2017-11-11T11:12:43+01:00]: Reading data for GE from cache
+[2017-11-11T11:12:43+01:00]: Reading data for DB from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TXN from cache
+[2017-11-11T11:12:43+01:00]: Reading data for III from cache
+[2017-11-11T11:12:43+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:12:43+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:12:43+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:12:43+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:12:43+01:00]: Reading data for FB from cache
+[2017-11-11T11:12:43+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:12:43+01:00]: Reading data for CS from cache
+[2017-11-11T11:12:43+01:00]: Reading data for JPM from cache
+[2017-11-11T11:12:43+01:00]: Reading data for GE from cache
+[2017-11-11T11:12:43+01:00]: Reading data for DB from cache
+[2017-11-11T11:14:37+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:14:37+01:00]: Getting data for AAPL (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:37+01:00]: Getting data for AAPL (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:37+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:14:37+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:14:37+01:00]: Getting data for AAPL (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T11:14:37+01:00]: Getting data for AAPL (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:37+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:38+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:38+01:00]: Getting data for GOOG (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:38+01:00]: Getting data for EBAY (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:14:38+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:14:38+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:38+01:00]: Getting data for GOOG (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:38+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:14:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:14:38+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:14:38+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:14:38+01:00]: Getting data for GOOG (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T11:14:38+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:14:38+01:00]: Getting data for TXN,III,AAPL,MSFT,TSLA,GOOG,EBAY,TSCO.L,FB,TWTR,CS,JPM,GE,DB () from server https://query2.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=TXN,III,AAPL,MSFT,TSLA,GOOG,EBAY,TSCO.L,FB,TWTR,CS,JPM,GE,DB&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2017-11-11T11:14:38+01:00]: Reading data for TXN from cache
+[2017-11-11T11:14:38+01:00]: Reading data for III from cache
+[2017-11-11T11:14:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T11:14:38+01:00]: Reading data for MSFT from cache
+[2017-11-11T11:14:38+01:00]: Reading data for TSLA from cache
+[2017-11-11T11:14:38+01:00]: Reading data for GOOG from cache
+[2017-11-11T11:14:38+01:00]: Reading data for EBAY from cache
+[2017-11-11T11:14:38+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T11:14:38+01:00]: Reading data for FB from cache
+[2017-11-11T11:14:38+01:00]: Reading data for TWTR from cache
+[2017-11-11T11:14:38+01:00]: Reading data for CS from cache
+[2017-11-11T11:14:38+01:00]: Reading data for JPM from cache
+[2017-11-11T11:14:38+01:00]: Reading data for GE from cache
+[2017-11-11T11:14:38+01:00]: Reading data for DB from cache
+[2017-11-11T12:16:35+01:00]: Getting data for TSLA (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Getting data for FB (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=FB&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Getting data for FB (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=FB&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Getting data for TSLA (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Getting data for AAPL (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:35+01:00]: Getting data for TSLA (1d,5m) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:35+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:35+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:35+01:00]: Getting data for TSLA (1d,5m) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1d&interval=5m&indicators=close
+[2017-11-11T12:16:36+01:00]: Getting data for AAPL (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=AAPL&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:36+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:36+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:36+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:36+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:36+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:36+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:36+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:36+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:36+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:37+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:37+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:37+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:37+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:37+01:00]: Getting data for MSFT (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Getting data for TSLA (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Getting data for MSFT (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=MSFT&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:37+01:00]: Getting data for GOOG (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Getting data for EBAY (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=EBAY&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:37+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:37+01:00]: Getting data for TSLA (1y,1mo) from server https://query2.finance.yahoo.com/v7/finance/spark?symbols=TSLA&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Getting data for GOOG (1y,1mo) from server https://query1.finance.yahoo.com/v7/finance/spark?symbols=GOOG&range=1y&interval=1mo&indicators=close
+[2017-11-11T12:16:37+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:37+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:37+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:37+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:37+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:37+01:00]: Getting data for TXN,III,AAPL,FB,TSLA,MSFT,GOOG,EBAY,TSCO.L,TWTR,CS,JPM,GE,DB () from server https://query1.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=TXN,III,AAPL,FB,TSLA,MSFT,GOOG,EBAY,TSCO.L,TWTR,CS,JPM,GE,DB&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2017-11-11T12:16:37+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:37+01:00]: Getting data for TXN () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TXN?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:38+01:00]: Getting data for III () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/III?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:38+01:00]: Getting data for AAPL () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:38+01:00]: Getting data for FB () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/FB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:39+01:00]: Getting data for TSLA () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TSLA?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:39+01:00]: Getting data for MSFT () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/MSFT?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:40+01:00]: Getting data for GOOG () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/GOOG?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:40+01:00]: Getting data for EBAY () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/EBAY?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:40+01:00]: Getting data for TSCO.L () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TSCO.L?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:41+01:00]: Getting data for TWTR () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/TWTR?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:41+01:00]: Getting data for CS () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/CS?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:42+01:00]: Getting data for JPM () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/JPM?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:42+01:00]: Getting data for GE () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/GE?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:42+01:00]: Getting data for DB () from server https://query1.finance.yahoo.com/v10/finance/quoteSummary/DB?formatted=false&modules=summaryProfile,summaryDetail,defaultKeyStatistics,financialData
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:54+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:54+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:54+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:54+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TXN from cache
+[2017-11-11T12:16:54+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:54+01:00]: Reading data for III from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:54+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:54+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:16:54+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:16:54+01:00]: Reading data for CS from cache
+[2017-11-11T12:16:54+01:00]: Reading data for JPM from cache
+[2017-11-11T12:16:54+01:00]: Reading data for GE from cache
+[2017-11-11T12:16:54+01:00]: Reading data for DB from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TXN from cache
+[2017-11-11T12:16:54+01:00]: Reading data for III from cache
+[2017-11-11T12:16:54+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:54+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:54+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:54+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:54+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:16:54+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:54+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:16:54+01:00]: Reading data for CS from cache
+[2017-11-11T12:16:54+01:00]: Reading data for JPM from cache
+[2017-11-11T12:16:54+01:00]: Reading data for GE from cache
+[2017-11-11T12:16:54+01:00]: Reading data for DB from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:56+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:56+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:56+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:56+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:56+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:56+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TXN from cache
+[2017-11-11T12:16:56+01:00]: Reading data for III from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:56+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:56+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:16:56+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:56+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:16:56+01:00]: Reading data for CS from cache
+[2017-11-11T12:16:56+01:00]: Reading data for JPM from cache
+[2017-11-11T12:16:56+01:00]: Reading data for GE from cache
+[2017-11-11T12:16:56+01:00]: Reading data for DB from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TXN from cache
+[2017-11-11T12:16:56+01:00]: Reading data for III from cache
+[2017-11-11T12:16:56+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:16:56+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:16:56+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:16:56+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:16:56+01:00]: Reading data for FB from cache
+[2017-11-11T12:16:56+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:16:56+01:00]: Reading data for CS from cache
+[2017-11-11T12:16:56+01:00]: Reading data for JPM from cache
+[2017-11-11T12:16:56+01:00]: Reading data for GE from cache
+[2017-11-11T12:16:56+01:00]: Reading data for DB from cache
+[2017-11-11T12:17:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:38+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:38+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:38+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:38+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:39+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:39+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:39+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:39+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:39+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:39+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TXN from cache
+[2017-11-11T12:17:39+01:00]: Reading data for III from cache
+[2017-11-11T12:17:39+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:39+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:39+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:39+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:17:39+01:00]: Reading data for FB from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:17:39+01:00]: Reading data for CS from cache
+[2017-11-11T12:17:39+01:00]: Reading data for JPM from cache
+[2017-11-11T12:17:39+01:00]: Reading data for GE from cache
+[2017-11-11T12:17:39+01:00]: Reading data for DB from cache
+[2017-11-11T12:17:39+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TXN from cache
+[2017-11-11T12:17:39+01:00]: Reading data for III from cache
+[2017-11-11T12:17:39+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:39+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:39+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:39+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:17:39+01:00]: Reading data for FB from cache
+[2017-11-11T12:17:39+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:17:39+01:00]: Reading data for CS from cache
+[2017-11-11T12:17:39+01:00]: Reading data for JPM from cache
+[2017-11-11T12:17:39+01:00]: Reading data for GE from cache
+[2017-11-11T12:17:39+01:00]: Reading data for DB from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:46+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:46+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:46+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:46+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TXN from cache
+[2017-11-11T12:17:46+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:46+01:00]: Reading data for III from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:46+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:46+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:17:46+01:00]: Reading data for FB from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:17:46+01:00]: Reading data for CS from cache
+[2017-11-11T12:17:46+01:00]: Reading data for JPM from cache
+[2017-11-11T12:17:46+01:00]: Reading data for GE from cache
+[2017-11-11T12:17:46+01:00]: Reading data for DB from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TXN from cache
+[2017-11-11T12:17:46+01:00]: Reading data for III from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:46+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:46+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:46+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:17:46+01:00]: Reading data for FB from cache
+[2017-11-11T12:17:46+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:17:46+01:00]: Reading data for CS from cache
+[2017-11-11T12:17:46+01:00]: Reading data for JPM from cache
+[2017-11-11T12:17:46+01:00]: Reading data for GE from cache
+[2017-11-11T12:17:46+01:00]: Reading data for DB from cache
+[2017-11-11T12:17:46+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:50+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:50+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:50+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:50+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:50+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:50+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:50+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TXN from cache
+[2017-11-11T12:17:50+01:00]: Reading data for III from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:50+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:50+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for FB from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:17:50+01:00]: Reading data for CS from cache
+[2017-11-11T12:17:50+01:00]: Reading data for JPM from cache
+[2017-11-11T12:17:50+01:00]: Reading data for GE from cache
+[2017-11-11T12:17:50+01:00]: Reading data for DB from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TXN from cache
+[2017-11-11T12:17:50+01:00]: Reading data for III from cache
+[2017-11-11T12:17:50+01:00]: Reading data for AAPL from cache
+[2017-11-11T12:17:50+01:00]: Reading data for MSFT from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TSLA from cache
+[2017-11-11T12:17:50+01:00]: Reading data for GOOG from cache
+[2017-11-11T12:17:50+01:00]: Reading data for EBAY from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TSCO.L from cache
+[2017-11-11T12:17:50+01:00]: Reading data for FB from cache
+[2017-11-11T12:17:50+01:00]: Reading data for TWTR from cache
+[2017-11-11T12:17:50+01:00]: Reading data for CS from cache
+[2017-11-11T12:17:50+01:00]: Reading data for JPM from cache
+[2017-11-11T12:17:50+01:00]: Reading data for GE from cache
+[2017-11-11T12:17:50+01:00]: Reading data for DB from cache
+[2020-08-26T15:54:49+02:00]: Getting data for RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO () from server https://query2.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2020-08-26T15:55:25+02:00]: Reading data for RELIANCE.NS from cache
+[2020-08-26T15:55:25+02:00]: Reading data for SBIN.NS from cache
+[2020-08-26T15:55:25+02:00]: Reading data for TATAMOTORS.NS from cache
+[2020-08-26T15:55:25+02:00]: Reading data for BHARTIARTL.NS from cache
+[2020-08-26T15:55:25+02:00]: Reading data for ZEEL-P2.NS from cache
+[2020-08-26T15:55:25+02:00]: Reading data for ASIANPAINT.BO from cache
+[2020-08-26T15:55:25+02:00]: Getting data for MARUTHI.BO () from server https://query1.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=MARUTHI.BO&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2020-08-26T15:57:26+02:00]: Reading data for RELIANCE.NS from cache
+[2020-08-26T15:57:26+02:00]: Reading data for SBIN.NS from cache
+[2020-08-26T15:57:26+02:00]: Reading data for TATAMOTORS.NS from cache
+[2020-08-26T15:57:26+02:00]: Reading data for BHARTIARTL.NS from cache
+[2020-08-26T15:57:26+02:00]: Reading data for ZEEL-P2.NS from cache
+[2020-08-26T15:57:26+02:00]: Reading data for ASIANPAINT.BO from cache
+[2020-08-26T15:57:26+02:00]: Getting data for MARUTHI.BO () from server https://query1.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=MARUTHI.BO&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2020-08-26T15:57:36+02:00]: Reading data for RELIANCE.NS from cache
+[2020-08-26T15:57:36+02:00]: Reading data for SBIN.NS from cache
+[2020-08-26T15:57:36+02:00]: Reading data for TATAMOTORS.NS from cache
+[2020-08-26T15:57:36+02:00]: Reading data for BHARTIARTL.NS from cache
+[2020-08-26T15:57:36+02:00]: Reading data for ZEEL-P2.NS from cache
+[2020-08-26T15:57:36+02:00]: Reading data for ASIANPAINT.BO from cache
+[2020-08-26T15:57:36+02:00]: Getting data for MARUTHI.BO () from server https://query2.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=MARUTHI.BO&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2020-08-26T16:02:18+02:00]: Getting data for RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO () from server https://query2.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2020-08-27T01:23:01+02:00]: Getting data for RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO () from server https://query1.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
+[2020-08-27T01:23:07+02:00]: Reading data for RELIANCE.NS from cache
+[2020-08-27T01:23:07+02:00]: Reading data for SBIN.NS from cache
+[2020-08-27T01:23:07+02:00]: Reading data for TATAMOTORS.NS from cache
+[2020-08-27T01:23:07+02:00]: Reading data for BHARTIARTL.NS from cache
+[2020-08-27T01:23:07+02:00]: Reading data for ZEEL-P2.NS from cache
+[2020-08-27T01:23:07+02:00]: Reading data for ASIANPAINT.BO from cache
+[2020-08-27T01:23:07+02:00]: Getting data for MARUTHI.BO () from server https://query1.finance.yahoo.com/v7/finance/quote?formatted=false&symbols=MARUTHI.BO&fields=shortName,fullExchangeName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,regularMarketDayLow,regularMarketDayHigh,regularMarketVolume,fiftyTwoWeekLow,fiftyTwoWeekHigh,fiftyTwoWeekLowChange,fiftyTwoWeekLowChangePercent,fiftyTwoWeekHighChange,fiftyTwoWeekHighChangePercent,regularMarketOpen,regularMarketPreviousClose,averageDailyVolume3Month,bid,ask,currency
