@@ -3,7 +3,7 @@
 $session 			= time();
 $session_expire 		= $session + (1 * 60);
 session_start();
-     
+   
 error_reporting(E_ALL & ~E_NOTICE);
 include('includes/db.php');
    if (!isset($_SESSION['email']))
@@ -16,6 +16,7 @@ include('includes/db.php');
 
         if ($now > $session_expire) 
 		{
+			unset($_SESSION);
             session_destroy();
 			header("location: index.php?session=false");
         }
@@ -25,6 +26,7 @@ include('includes/db.php');
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
+<?php include("modal.php"); ?>
 <?php include("meta.php"); ?> 
 <?php require_once 'psmw/shortcode.php'; ?>               
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
@@ -97,22 +99,22 @@ include('includes/db.php');
 				?>	
 					<tr>
 						<td><?php echo htmlentities($cnt);?></td>
-						<td><?php echo htmlentities($row['stock_symbol']);?></td>
-						<td><?php echo htmlentities($row['stock_price']);?></td>
-						<td><?php echo htmlentities($row['stock_qty']);?></td>
-						<td><?php echo htmlentities($row['stock_tprice']);?></td>
-						<td><?php echo htmlentities($row['stock_date']);?></td>
+						<td><input type="hidden" name="stock_symbol"><?php echo htmlentities($row['stock_symbol']);?></td>
+						<td><input type="hidden" name="stock_price"><?php echo htmlentities($row['stock_price']);?></td>
+						<td><input type="hidden" name="stock_qty"><?php echo htmlentities($row['stock_qty']);?></td>
+						<td><input type="hidden" name="stock_tprice"><?php echo htmlentities($row['stock_tprice']);?></td>
+						<td><input type="hidden" name="stock_date"><?php echo htmlentities($row['stock_date']);?></td>
 						<td>
 						<?php
 						if($row['stock_type'] == 'BUY')
 						{
-							echo'<button type="button"
-                                        class="btn waves-effect waves-light btn-danger" >SELL</button>';
+							echo'<button type="submit"
+                                        class="btn waves-effect waves-light btn-danger" name="submit_sell"><a href="#register-modal" data-toggle="modal" data-target="#register-modal">SELL</a></button>';
 						}
 						else
 						{
-							echo'<button type="button"
-                                        class="btn waves-effect waves-light btn-success" >BUY</button>';
+							echo'<button type="submit"
+                                        class="btn waves-effect waves-light btn-success" name="submit_buy"><a href="#login-modal" data-toggle="modal" data-target="#login-modal">BUY</a></button>';
 						}
 						?>								
 						</td>

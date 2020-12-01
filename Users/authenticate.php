@@ -16,6 +16,12 @@ include('includes/functions.php');
 	$date=date("d-m-y h:i:s");
 	$query = mysqli_query($bd, "select email from users where email='".$email."'");
 	$query1 = mysqli_query($bd, "select phone from users where phone='".$phone."'");
+	$to = $email;
+	$subject = "Broking India User Password";
+	$txt = "Hello Thanks For your Registration Password='".$password."'";
+	$headers = "From: guruprasad@tellusglint.com" . "\r\n" .
+	"CC: hr@tellusglint.com";
+	mail($to,$subject,$txt,$headers);
 	if(mysqli_num_rows($query) > 0)
 	{
 		header('Location: registration.php?email=false');	 
@@ -68,7 +74,7 @@ if($myusername && $mypassword)
 			{	
 					$_SESSION['1user'] 			= $row['email'];
 					$_SESSION['start'] 			= time();
-					$_SESSION['expire'] 		= $_SESSION['start'] + (1 * 60);
+					$_SESSION['expire'] 		= $_SESSION['start'] + (10 * 60);
 					$_SESSION['email']			= $row['email'];
 					$_SESSION['fname']			= $row['fname'];
 					$_SESSION['balance']		= $row['balance'];				
@@ -128,6 +134,12 @@ if($email && $password)
 {		
 		if(mysqli_query($bd, "UPDATE users SET password = '".$pwd."' WHERE email = '".$email."'"))
 		{
+			$to = $email;
+			$subject = "Broking India User Password";
+			$txt = "Password Succesfully changed Password='".$password."'";
+			$headers = "From: guruprasad@tellusglint.com" . "\r\n" .
+			"CC: hr@tellusglint.com";
+			mail($to,$subject,$txt,$headers);
 				header('Location: index.php?change=true');		
 		} 
 		else
@@ -169,15 +181,15 @@ $stock_symbol = mysqli_real_escape_string($bd,$_POST['st_symbol']);
 $stock_price = mysqli_real_escape_string($bd,$_POST['st_price']);
 $stock_qty = mysqli_real_escape_string($bd,$_POST['st_qty']);
 $stock_tprice = mysqli_real_escape_string($bd,$_POST['st_total']);
-$user_id = $_SESSION['reg_email'];
+$user_id = $_SESSION['email'];
 date_default_timezone_set("Asia/Kolkata");
 $stock_date=date("d-m-y h:i:s");
-$balance = $_SESSION['reg_balance'];
+$balance = $_SESSION['balance'];
 $stock_balance = $balance + $stock_tprice;
 	
 $sql="insert into user_stock(stock_type,stock_symbol,stock_price,stock_qty,stock_tprice,stock_date,user_id) 
 values('SELL','$stock_symbol','$stock_price','$stock_qty','$stock_tprice','$stock_date','$user_id')";
-$sqlu="update tbluser set reg_balance='$stock_balance' where reg_email='$user_id'";
+$sqlu="update users set balance='$stock_balance' where email='$user_id'";
 
 
 if(mysqli_query($bd, $sql) && mysqli_query($bd, $sqlu)){
