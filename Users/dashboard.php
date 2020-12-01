@@ -13,7 +13,8 @@ include('includes/db.php');
 
         if ($now > $_SESSION['expire']) 
 		{
-            session_destroy();
+            unset($_SESSION);
+			session_destroy();
 			header("location: index.php?session=false");
         }
 		else 
@@ -58,7 +59,7 @@ $row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
                         <div class="card">
                             <div class="card-body">
                                 <div class="table-responsive">
-                                     <?php shortcode(['type' => 'ticker', 'symbol' => 'MCX.NS,RELIANCE.NS,GOLDSHARE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO', 'template' => 'background', 'color' => 'black', 'speed' => 20000, 'direction' => 'left', 'pause' => TRUE]); ?>
+                                     <?php shortcode(['type' => 'ticker', 'symbol' => 'GC=F,MCX.NS,RELIANCE.NS,GOLDSHARE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO', 'template' => 'background', 'color' => 'black', 'speed' => 20000, 'direction' => 'left', 'pause' => TRUE]); ?>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +79,7 @@ $row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
 											 <div class="form-group">
 											<input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Search for symbol.." title="Type in a name">
                                             </div>
-<?php shortcode(['type' => 'table', 'symbol' => 'GOLDSHARE.NS,RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ASIANPAINT.BO,INDUSINDBK.NS,AXISBANK.NS,UPL.NS,ICICIBANK.NS,JSWSTEEL.NS,HEROMOTOCO.NS,POWERGRID.NS,INFY.NS,DRREDDY.NS,TITAN.NS,NMDC.BO,VIDLI.BO,HBEL.BO,FILTRA.BO,CSLFINANCE.BO,INDTERRAIN.NS,INDTERRAIN.BO,UCALFUEL.BO,UCALFUEL.NS,ACC.NS,ADANIPORTS.NS', 'template' => 'basic', 'fields' => 'virtual.symbol,quote.regularMarketPrice,quote.regularMarketChange,quote.regularMarketChangePercent', 'color' => 'blue']); ?>
+<?php shortcode(['type' => 'table', 'symbol' => 'GC=F,GOLDSHARE.NS,RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ASIANPAINT.BO,INDUSINDBK.NS,AXISBANK.NS,UPL.NS,ICICIBANK.NS,JSWSTEEL.NS,HEROMOTOCO.NS,POWERGRID.NS,INFY.NS,DRREDDY.NS,TITAN.NS,NMDC.BO,VIDLI.BO,HBEL.BO,FILTRA.BO,CSLFINANCE.BO,INDTERRAIN.NS,INDTERRAIN.BO,UCALFUEL.BO,UCALFUEL.NS,ACC.NS,ADANIPORTS.NS', 'template' => 'basic', 'fields' => 'virtual.symbol,quote.regularMarketPrice,quote.regularMarketChange,quote.regularMarketChangePercent', 'color' => 'blue']); ?>
 									   </div>
                                     </div> 
 									

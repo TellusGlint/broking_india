@@ -2,7 +2,7 @@
 session_start();
 error_reporting(E_ALL & ~E_NOTICE);
 include('includes/db.php');
-   if (!isset($_SESSION['reg_email']))
+   if (!isset($_SESSION['email']))
    {
       header("location: index.php");
    }
@@ -29,24 +29,24 @@ include('includes/db.php');
                     <div class="col-lg-4 col-xlg-3 col-md-5">
                         <div class="card">
 						 <?php										
-							$query=mysqli_query($bd, "select * from tbluser");
+							$query=mysqli_query($bd, "select * from users");
 							while($row=mysqli_fetch_array($query))
 							{
 								$imagepath = "doc/";
-								$reg_image = $row['reg_image'];
+								$reg_image = $row['photo'];
 								$path= $imagepath.$reg_image;
 						?>
                             <div class="card-body pb-0">
                                 <center class="mt-4"> <img src="<?php echo $path; ?>" class="rounded-circle" width="150" />
-                                    <h4 class="card-title mt-2"><?php echo  htmlentities($row['reg_name']);?></h4>                                                                      
+                                    <h4 class="card-title mt-2"><?php echo  htmlentities($row['fname']);echo "&nbsp"; echo  htmlentities($row['lname']);?></h4>                                                                      
                                 </center>
                             </div>
                             <div>
                                 <hr> </div>
                             <div class="card-body"> <small class="text-muted">Email address </small>
-                                <h6><a href="" class=""><?php echo  htmlentities($row['reg_email']);?></a></h6> <small class="text-muted pt-4 db">Phone</small>
-                                <h6><?php echo  htmlentities($row['reg_mobile']);?></h6> <small class="text-muted pt-4 db">Address</small>
-                                <h6><?php echo  htmlentities($row['reg_address']);?></h6>
+                                <h6><a href="" class=""><?php echo  htmlentities($row['email']);?></a></h6> <small class="text-muted pt-4 db">Phone</small>
+                                <h6><?php echo  htmlentities($row['phone']);?></h6> <small class="text-muted pt-4 db">Address</small>
+                                <h6><?php echo  htmlentities($row['address']);?></h6>
                                                               
                             </div>
 							<?php } ?>
@@ -67,11 +67,11 @@ include('includes/db.php');
                             <div class="tab-content" id="pills-tabContent">                                
                                 <div class="tab-pane fade show active" id="previous-month" role="tabpanel" aria-labelledby="pills-setting-tab">
                                     <?php										
-										$query=mysqli_query($bd, "select * from tbluser");
+										$query=mysqli_query($bd, "select * from users");
 										while($row=mysqli_fetch_array($query))
 										{
 											$imagepath = "doc/";
-											$reg_image = $row['reg_image'];
+											$reg_image = $row['photo'];
 											$path= $imagepath.$reg_image;
 									?>										
 									<div class="card-body">
@@ -85,25 +85,25 @@ include('includes/db.php');
                                             <div class="form-group">
                                                 <label for="example-email" class="col-md-12">Email</label>
                                                 <div class="col-md-12">
-                                                    <input type="email" value="<?php echo  htmlentities($row['reg_email']);?>" class="form-control form-control-line" name="reg_email" id="reg_email" >
+                                                    <input type="email" value="<?php echo  htmlentities($row['email']);?>" class="form-control form-control-line" name="email" id="email" >
                                                 </div>
                                             </div>                                           
                                             <div class="form-group">
                                                 <label class="col-md-12">Phone No</label>
                                                 <div class="col-md-12">
-                                                    <input type="text" placeholder="123 456 7890" class="form-control form-control-line" name="reg_mobile" value="<?php echo  htmlentities($row['reg_mobile']);?>">
+                                                    <input type="text" placeholder="123 456 7890" class="form-control form-control-line" name="phone" value="<?php echo  htmlentities($row['phone']);?>">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-md-12">Address</label>
                                                 <div class="col-md-12">
-                                                    <textarea rows="5" class="form-control form-control-line" name="reg_address" ><?php echo  $row['reg_address'];?></textarea>
+                                                    <textarea rows="5" class="form-control form-control-line" name="address" ><?php echo  $row['address'];?></textarea>
                                                 </div>
                                             </div> 
 											<div class="form-group">
                                                 <label class="col-md-12">Pin Code</label>
                                                 <div class="col-md-12">
-                                                    <input type="text" placeholder="Pin Code" class="form-control form-control-line" name="reg_pincode" value="<?php echo  htmlentities($row['reg_pincode']);?>">
+                                                    <input type="text" placeholder="Pin Code" class="form-control form-control-line" name="pincode" value="<?php echo  htmlentities($row['pincode']);?>">
                                                 </div>
                                             </div>
 											<div class="form-group">

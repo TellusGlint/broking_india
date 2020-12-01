@@ -1,17 +1,19 @@
 <?php
-
-$session 			= time();
-$session_expire 		= $session + (1 * 60);
 session_start();
    
 error_reporting(E_ALL & ~E_NOTICE);
 include('includes/db.php');
+$email=$_SESSION['email'];
    if (!isset($_SESSION['email']))
    {
       header("location: index.php");
    }
    else 
    {
+		$result	=	mysqli_query($bd, "SELECT * FROM users WHERE email='$email'");
+		$row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
+		$session_start = $row['time'];
+		$session_expire = $session_start + (30 * 60);
         $now = time(); // Checking the time now when home page starts.
 
         if ($now > $session_expire) 

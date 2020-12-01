@@ -14,6 +14,7 @@ include('includes/functions.php');
 	$pwd = password_hash($password, PASSWORD_DEFAULT);
 	date_default_timezone_set("Asia/Kolkata");
 	$date=date("d-m-y h:i:s");
+	$time=time();
 	$query = mysqli_query($bd, "select email from users where email='".$email."'");
 	$query1 = mysqli_query($bd, "select phone from users where phone='".$phone."'");
 	$to = $email;
@@ -32,8 +33,8 @@ include('includes/functions.php');
 	}	
 	else 
 	{
-	$exe="insert into users(email,fname,lname,address,phone,password,role,balance) 
-	values('$email','$fname','$lname','$address','$phone','$pwd','user','1000000')";
+	$exe="insert into users(email,fname,lname,address,phone,password,role,balance,time) 
+	values('$email','$fname','$lname','$address','$phone','$pwd','user','1000000','$time')";
 	if(mysqli_query($bd, $exe))
 	{
 		header('Location: index.php?login=true');
@@ -68,16 +69,18 @@ if($myusername && $mypassword)
 		$pwd = mysqli_query($bd, "SELECT password FROM $tbl_name WHERE email='".$myusername."'");
 		$pas = mysqli_fetch_array($pwd,MYSQLI_ASSOC);
 		$pass=$pas['password'];
+		$time=time();
 		if($count==1)
 		{		
 			if(password_verify($mypassword, $pass))
 			{	
 					$_SESSION['1user'] 			= $row['email'];
 					$_SESSION['start'] 			= time();
-					$_SESSION['expire'] 		= $_SESSION['start'] + (10 * 60);
+					$_SESSION['expire'] 		= $_SESSION['start'] + (30 * 60);
 					$_SESSION['email']			= $row['email'];
 					$_SESSION['fname']			= $row['fname'];
-					$_SESSION['balance']		= $row['balance'];				
+					$_SESSION['balance']		= $row['balance'];
+					mysqli_query($bd, "UPDATE users SET time = '".$time."' WHERE email = '".$myusername."'");
 					header("location:dashboard.php");
 			}
 			else
