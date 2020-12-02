@@ -6,6 +6,7 @@ include('includes/db.php');
    {
       header("location: index.php");
    }
+   $email=$_SESSION['email'];
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
@@ -29,7 +30,7 @@ include('includes/db.php');
                     <div class="col-lg-4 col-xlg-3 col-md-5">
                         <div class="card">
 						 <?php										
-							$query=mysqli_query($bd, "select * from users");
+							$query=mysqli_query($bd, "select * from users where email='$email'");
 							while($row=mysqli_fetch_array($query))
 							{
 								$imagepath = "doc/";
@@ -67,7 +68,7 @@ include('includes/db.php');
                             <div class="tab-content" id="pills-tabContent">                                
                                 <div class="tab-pane fade show active" id="previous-month" role="tabpanel" aria-labelledby="pills-setting-tab">
                                     <?php										
-										$query=mysqli_query($bd, "select * from users");
+										$query=mysqli_query($bd, "select * from users where email='$email'");
 										while($row=mysqli_fetch_array($query))
 										{
 											$imagepath = "doc/";

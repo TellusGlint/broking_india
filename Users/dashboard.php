@@ -59,7 +59,7 @@ $row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
                         <div class="card">
                             <div class="card-body">
                                 <div class="table-responsive">
-                                     <?php shortcode(['type' => 'ticker', 'symbol' => 'RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO', 'template' => 'background', 'color' => 'black', 'speed' => 20000, 'direction' => 'left', 'pause' => TRUE]); ?>
+                                     <?php shortcode(['type' => 'ticker', 'symbol' => 'GC=F,RELIANCE.NS,SBIN.NS,TATAMOTORS.NS,BHARTIARTL.NS,ZEEL-P2.NS,ASIANPAINT.BO,MARUTHI.BO', 'template' => 'background', 'color' => 'black', 'speed' => 20000, 'direction' => 'left', 'pause' => TRUE]); ?>
                                 </div>
                             </div>
                         </div>

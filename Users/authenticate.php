@@ -20,8 +20,7 @@ include('includes/functions.php');
 	$to = $email;
 	$subject = "Broking India User Password";
 	$txt = "Hello Thanks For your Registration Password='".$password."'";
-	$headers = "From: guruprasad@tellusglint.com" . "\r\n" .
-	"CC: hr@tellusglint.com";
+	$headers = "From: guruprasad@gmail.com";
 	mail($to,$subject,$txt,$headers);
 	if(mysqli_num_rows($query) > 0)
 	{
@@ -50,8 +49,6 @@ include('includes/functions.php');
 //Login
    if(isset($_POST['submit_login']))
 {
-$v1 = "FirstUser";
-$v2 = "MyPassword";
 $tbl_name	= "users"; // Table name
 $myusername = $_POST['email'];
 $mypassword = $_POST['password'];
