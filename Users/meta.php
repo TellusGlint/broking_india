@@ -5,7 +5,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="robots" content="">
-	<meta http-equiv="refresh" content="30">
+	<meta http-equiv="refresh" content="600">
     <title>Broking India</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/materialpro/" />
     <!-- Favicon icon -->

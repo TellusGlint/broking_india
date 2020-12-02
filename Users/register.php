@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<?php
+include('includes/db.php');
+$result	=	mysqli_query($bd, "SELECT logo FROM mainlogo WHERE id='1'");
+		$row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
+		$imagepath = "doc/";
+		$photo = $row['logo'];
+		$path= $imagepath.$photo;
+?>
 <html dir="ltr">
 
 <head>
@@ -36,7 +44,7 @@
 				<div class="row">	
 					<div class="col-md-3">	</div>				
 					<div class="col-md-6 text-center">				   
-					  <img src="assets/images/logo.png" alt="homepage" class="logo-login" />
+					  <img src="<?php echo $path; ?>" alt="homepage" class="logo-login" />
 					</div>
 					<div class="col-md-3">	</div>	
 				</div>

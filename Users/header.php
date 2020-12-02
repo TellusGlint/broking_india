@@ -12,6 +12,9 @@ $email=$_SESSION['email'];
    {
 		$result	=	mysqli_query($bd, "SELECT * FROM users WHERE email='$email'");
 		$row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
+		$imagepath = "doc/";
+		$photo = $row['photo'];
+		$path= $imagepath.$photo;
 		$session_start = $row['time'];
 		$session_expire = $session_start + (30 * 60);
         $now = time(); // Checking the time now when home page starts.
@@ -178,13 +181,13 @@ $email=$_SESSION['email'];
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
-                                <img src="assets/images/users/1.jpg" alt="user" width="30" class="profile-pic rounded-circle" />
+                                <img src="<?php echo $path; ?>" alt="user" width="30" class="profile-pic rounded-circle" />
                             </a>
                             <div class="dropdown-menu mailbox dropdown-menu-right scale-up">
                                 <ul class="dropdown-user list-style-none">
                                     <li>
                                         <div class="dw-user-box p-3 d-flex">
-                                            <div class="u-img"><img src="assets/images/users/1.jpg" alt="user" class="rounded" width="80"></div>
+                                            <div class="u-img"><img src="<?php echo $path; ?>" alt="user" class="rounded" width="80"></div>
                                             <div class="u-text ml-2">
                                                 <h4 class="mb-0"><?php echo $row['fname'];  echo "&nbsp"; echo $row['lname']; ?></h4>
                                                 <p class="text-muted mb-1 font-14"><a href="#" ><?php echo $row['email']; ?></a></p>                                               

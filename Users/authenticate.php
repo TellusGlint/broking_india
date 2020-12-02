@@ -205,29 +205,30 @@ else{
 // Profile
    if(isset($_POST['submit_profile']))
 {
-$reg_name = mysqli_real_escape_string($bd,$_POST['reg_name']);	
-$reg_email = mysqli_real_escape_string($bd,$_POST['reg_email']);
-$reg_mobile = mysqli_real_escape_string($bd,$_POST['reg_mobile']);
-$reg_address = mysqli_real_escape_string($bd,$_POST['reg_address']);
-$reg_pincode = mysqli_real_escape_string($bd,$_POST['reg_pincode']);
+$fname = mysqli_real_escape_string($bd,$_POST['fname']);
+$lname = mysqli_real_escape_string($bd,$_POST['lname']);
+$email = mysqli_real_escape_string($bd,$_POST['email']);
+$phone = mysqli_real_escape_string($bd,$_POST['phone']);
+$address = mysqli_real_escape_string($bd,$_POST['address']);
+//$reg_pincode = mysqli_real_escape_string($bd,$_POST['reg_pincode']);
 $user_id = $_SESSION['email'];
-@$query= "select * from users where email = '$user_id'";
+$query= "select * from users where email = '$user_id'";
 $arr = mysqli_query($bd, $query);
 $count	=	mysqli_num_rows($arr);
-$row	= 	mysqli_fetch_array($arr);
+$row	= 	mysqli_fetch_array($arr,MYSQLI_ASSOC);
 if($count==1)
 {
 	
-if (!empty($_FILES["reg_image"]["name"])) {
+if (!empty($_FILES["photo"]["name"])) {
 
-    $reg_image = $_FILES["reg_image"]["name"];
-    $tmp_name = $_FILES['reg_image']['tmp_name'];
-    $error = $_FILES['reg_image']['error'];
+    $photo = $_FILES["photo"]["name"];
+    $tmp_name = $_FILES['photo']['tmp_name'];
+    $error = $_FILES['photo']['error'];
 
-    if (!empty($reg_image)) {
+    if (!empty($photo)) {
         $location = 'doc/';
 
-        if  (move_uploaded_file($tmp_name, $location.$reg_image)){
+        if  (move_uploaded_file($tmp_name, $location.$photo)){
             //echo 'Uploaded';
         }
 
@@ -235,13 +236,13 @@ if (!empty($_FILES["reg_image"]["name"])) {
 }
 else
 {
-	$reg_image = $row['reg_image'];
+	$photo = $row['photo'];
 }
 date_default_timezone_set("Asia/Kolkata");
 $stock_date=date("d-m-y h:i:s");	
 
-$sqlu="update tbluser set reg_name='$reg_name', reg_email='$reg_email', reg_mobile='$reg_mobile', reg_address='$reg_address',
-reg_pincode='$reg_pincode', reg_image='$reg_image'  where reg_email='$user_id'";
+$sqlu="update users set fname='$fname',lname='$lname', email='$email', phone='$phone', address='$address',
+ photo='$photo'  where email='$user_id'";
 
 
 if( mysqli_query($bd, $sqlu)){

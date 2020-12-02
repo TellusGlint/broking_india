@@ -33,8 +33,8 @@ include('includes/db.php');
 							while($row=mysqli_fetch_array($query))
 							{
 								$imagepath = "doc/";
-								$reg_image = $row['photo'];
-								$path= $imagepath.$reg_image;
+								$photo = $row['photo'];
+								$path= $imagepath.$photo;
 						?>
                             <div class="card-body pb-0">
                                 <center class="mt-4"> <img src="<?php echo $path; ?>" class="rounded-circle" width="150" />
@@ -71,21 +71,25 @@ include('includes/db.php');
 										while($row=mysqli_fetch_array($query))
 										{
 											$imagepath = "doc/";
-											$reg_image = $row['photo'];
-											$path= $imagepath.$reg_image;
+											$photo = $row['photo'];
+											$path= $imagepath.$photo;
 									?>										
 									<div class="card-body">
                                         <form class="form-horizontal form-material" action="authenticate.php" method="post" enctype="multipart/form-data" id="profile-form">
                                             <div class="form-group">
-                                                <label class="col-md-12">Full Name</label>
+                                                <label class="col-md-12">First Name</label>
                                                 <div class="col-md-12">
-                                                    <input type="text" class="form-control form-control-line" name="reg_name" value="<?php echo  htmlentities($row['reg_name']);?>">
+                                                    <input type="text" class="form-control form-control-line" name="fname" value="<?php echo  htmlentities($row['fname']);?>">
+												</div>
+												<label class="col-md-12">Last Name</label>
+                                                <div class="col-md-12">
+                                                    <input type="text" class="form-control form-control-line" name="lname" value="<?php echo  htmlentities($row['lname']);?>">
 												</div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="example-email" class="col-md-12">Email</label>
                                                 <div class="col-md-12">
-                                                    <input type="email" value="<?php echo  htmlentities($row['email']);?>" class="form-control form-control-line" name="email" id="email" >
+                                                    <input type="email" value="<?php echo  htmlentities($row['email']);?>" class="form-control form-control-line" name="email" id="email" readonly>
                                                 </div>
                                             </div>                                           
                                             <div class="form-group">
@@ -100,34 +104,34 @@ include('includes/db.php');
                                                     <textarea rows="5" class="form-control form-control-line" name="address" ><?php echo  $row['address'];?></textarea>
                                                 </div>
                                             </div> 
-											<div class="form-group">
+											<!--<div class="form-group">
                                                 <label class="col-md-12">Pin Code</label>
                                                 <div class="col-md-12">
-                                                    <input type="text" placeholder="Pin Code" class="form-control form-control-line" name="pincode" value="<?php echo  htmlentities($row['pincode']);?>">
+                                                    <input type="text" placeholder="570016" class="form-control form-control-line" name="pincode" value="<?php echo  htmlentities($row['pincode']);?>">
                                                 </div>
-                                            </div>
+                                            </div>-->
 											<div class="form-group">
 												<label class="col-sm-12 text-left control-label col-form-label">Select File</label>
 												<div class="col-sm-12">
 													<div class="input-group mb-3">
 														<div class="custom-file">
-															<input type="file" class="custom-file-input" id="inputGroupFile01" name="reg_image">
+															<input type="file" class="custom-file-input" id="inputGroupFile01" name="photo">
 															<label class="custom-file-label" for="inputGroupFile01">Choose file</label>
 														</div>
 													</div>
 												</div>
 											</div>
 											<?php } ?>
-                                            <div class="form-group">
+                                            <div class="form-group" style="text-align: center !important;">
                                                 <div class="col-sm-12">
-                                                    <button class="btn btn-success" type="submit" name="submit_profile">Update Profile</button>
+                                                    <button  class="btn btn-success" type="submit" name="submit_profile">Update Profile</button>
                                                 </div>
                                             </div>
                                         </form>
-										<div class="row">
+										<div class="row" style="text-align: center !important;">
 										<div class="col-sm-12">
 											<button class="btn btn-info" id="profile_edit">Edit</button>
-											<button class="btn btn-secondary" id="profile_cancel">Cancel</button>
+											<button class="btn btn-secondary" onclick="javascript:window.location='dashboard.php';">Cancel</button>
 										</div>
 										
 										</div>
