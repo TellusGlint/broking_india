@@ -27,8 +27,19 @@ $email=$_SESSION['email'];
         }
 		else 
 		{ //Starting this else one [else1]
+			date_default_timezone_set('Asia/Kolkata');
+			$date=date('d-m-Y');
 ?>      
-
+<style>
+.myright
+{
+	margin-left: 610px;
+}
+.mytop
+{
+	margin-top: 10px;
+}
+</style>
 
 
 	  <header class="topbar">
@@ -82,22 +93,22 @@ $email=$_SESSION['email'];
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-                        <li class="nav-item d-none d-md-block search-box"> <a
+                        <!--<li class="nav-item d-none d-md-block search-box"> <a
                                 class="nav-link d-none d-md-block waves-effect waves-dark" href="javascript:void(0)"><i
                                     class="ti-search"></i></a>
                             <form class="app-search">
-                                <input type="text" class="form-control" placeholder="Search & enter"> 
+                                <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search For Commodities"> 
                                 <a class="srh-btn"><i class="ti-close"></i></a> 
                             </form>
-                        </li>
+                        </li>-->
                         <!-- ============================================================== -->
                         <!-- Mega Menu -->
                         <!-- ============================================================== -->
-                        <li class="nav-item dropdown mega-dropdown"> <a
+                        <!--<li class="nav-item dropdown mega-dropdown"> <a
                                 class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-view-grid"></i></a>
                             
-                        </li>
+                        </li>-->
                         <!-- ============================================================== -->
                         <!-- End Mega Menu -->
                         <!-- ============================================================== -->
@@ -210,7 +221,8 @@ $email=$_SESSION['email'];
         <!-- ============================================================== -->
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
-        <aside class="left-sidebar">
+      
+	   <aside class="left-sidebar">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar">
                 <!-- Sidebar navigation-->
@@ -226,7 +238,9 @@ $email=$_SESSION['email'];
                         </li>
 						<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="hide-menu">Positions </span></a> 
                         </li>
+						<li class="myright mytop" ><?php echo $date; ?>&nbsp;<li class="mytop" id="timer"></li></li>
                     </ul>
+					
                 </nav>
                 <!-- End Sidebar navigation -->
             </div>
@@ -235,6 +249,41 @@ $email=$_SESSION['email'];
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
+<script>
+setInterval(function() {
+    var currentTime = new Date ( );    
+    var currentHours = currentTime.getHours ( );   
+    var currentMinutes = currentTime.getMinutes ( );   
+    var currentSeconds = currentTime.getSeconds ( );
+    currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;   
+    currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;    
+    var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";    
+    currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;    
+    currentHours = ( currentHours == 0 ) ? 12 : currentHours;    
+    var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+    document.getElementById("timer").innerHTML = currentTimeString;
+}, 1000);
+</script>
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table-search");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
 <?php
         }
     }

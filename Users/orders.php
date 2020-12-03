@@ -83,7 +83,9 @@ $email=$_SESSION['email'];
 									<tr>
 										<th>Sl No.</th>
 										<th>Symbol</th>
-										<th>Price</th>
+										<th>Bought Price</th>
+										<th>Current Price</th>
+										<th>Gain/Loss</th>
 										<th>Qty</th>
 										<th>Total</th>										
 										<th>Date</th>
@@ -98,11 +100,14 @@ $email=$_SESSION['email'];
 				while($row=mysqli_fetch_array($result))
 				{
 					$mob = $row['phone'];
+					$symbol = $row['stock_symbol'];
 				?>	
 					<tr>
 						<td><?php echo htmlentities($cnt);?></td>
 						<td><input type="hidden" name="stock_symbol"><?php echo htmlentities($row['stock_symbol']);?></td>
 						<td><input type="hidden" name="stock_price"><?php echo htmlentities($row['stock_price']);?></td>
+						<td><input type="hidden" name="stock_price"><?php shortcode(['type' => 'single', 'symbol' => '', 'template' => 'basic', 'fields' => 'quote.regularMarketPrice', 'color' => 'gray']); ?></td>
+						<td></td>
 						<td><input type="hidden" name="stock_qty"><?php echo htmlentities($row['stock_qty']);?></td>
 						<td><input type="hidden" name="stock_tprice"><?php echo htmlentities($row['stock_tprice']);?></td>
 						<td><input type="hidden" name="stock_date"><?php echo htmlentities($row['stock_date']);?></td>

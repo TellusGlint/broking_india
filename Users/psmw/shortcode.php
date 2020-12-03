@@ -18,7 +18,9 @@ function shortcode($shortcode) {
     $widgetDataAttributes = sprintf('data-symbol="%s" data-type="%s" data-duplicated="true" data-duration="%s" data-pauseOnHover="%s" data-direction="%s" data-dependency="marquee"', $shortcode['symbol'], $shortcode['type'], $shortcode['speed'], $shortcode['pause'], $shortcode['direction']);
   } elseif ($shortcode['type'] == 'chart') {
     $widgetDataAttributes = sprintf('data-symbol="%s" data-type="%s" data-chart="%s" data-range="%s" data-interval="%s" data-line-color="%s" data-dependency="chart"', $shortcode['symbol'], $shortcode['type'], $shortcode['chart'], $shortcode['range'], $shortcode['interval'], $shortcode['line-color']);
-  } elseif ($shortcode['type'] == 'combo') {
+  } elseif ($shortcode['type'] == 'single') {
+    $widgetDataAttributes = sprintf('data-symbol="%s" data-type="%s" ', $shortcode['symbol'], $shortcode['type']);
+  }elseif ($shortcode['type'] == 'combo') {
     $widgetDataAttributes = sprintf('data-symbol="%s" data-type="%s" data-chart="%s" data-range="%s" data-interval="%s" data-line-color="%s" data-dependency="chart"', $shortcode['symbol'], $shortcode['type'], $shortcode['chart'], $shortcode['range'], $shortcode['interval'], $shortcode['line-color']);
     $chartWidgetsDataAttributes = sprintf('data-type="chart" data-chart="%s" data-range="%s" data-interval="%s" data-dependency="chart" data-source="history"', $shortcode['chart'], $shortcode['range'], $shortcode['interval']);
   } else {

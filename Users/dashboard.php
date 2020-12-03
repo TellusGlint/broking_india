@@ -23,6 +23,7 @@ include('includes/db.php');
 $email = $_SESSION['email'];
 $result	=	mysqli_query($bd, "SELECT * FROM users WHERE email='" .$email."'");
 $row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
+$balance = $english_format_number = number_format($row['balance']);
 
 ?>
 <!DOCTYPE html>
@@ -100,17 +101,18 @@ $row	= 	mysqli_fetch_array($result,MYSQLI_ASSOC);
                                 </div>
 								<div class="d-flex no-block align-items-center">							
                                     <div>
-                                        <h2><?php echo  htmlentities($row['balance']);?></h2>
+                                        <h2><?php echo  $balance;?>&#8377;</h2>
                                         <h6 class="text-info">Available Balance</h6>
                                     </div>
                                     <div class="ml-auto"> 
 									<?php										
 									$query1=mysqli_query($bd, "select SUM(stock_tprice) AS s_total, SUM(stock_qty) AS s_qty from user_stock where user_id ='".$email."'");
 									$row1=mysqli_fetch_array($query1);
+									$total= $english_format_number = number_format($row1['s_total']);
 																	
 									?>
-                                        <h6 class="text-info">Number of Stocks: <span class="text-dark"><?php echo  htmlentities($row1['s_qty']);?></span></h6>
-										<h6 class="text-info">Stock Value: <span class="text-dark"><?php echo  htmlentities($row1['s_total']);?></span></h6>
+                                        <h2><?php echo  $total;?>&#x20B9;</h2>
+										<h6 class="text-info">Total Stock Value</h6>
 										
                                     </div>
 								
