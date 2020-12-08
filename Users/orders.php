@@ -24,6 +24,7 @@ $email=$_SESSION['email'];
         }
 		else 
 		{ //Starting this else one [else1]
+			$result=mysqli_query($bd, "delete from user_stock where stock_type = 'SELL'")or die(mysqli_connect_error());
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
@@ -84,11 +85,11 @@ $email=$_SESSION['email'];
 										<th>Sl No.</th>
 										<th>Symbol</th>
 										<th>Bought Price</th>
-										<th>Current Price</th>
-										<th>Gain/Loss</th>
+										
 										<th>Qty</th>
 										<th>Total</th>										
 										<th>Date</th>
+
 										<th></th>										
 									</tr>
 								</thead>						
@@ -102,31 +103,28 @@ $email=$_SESSION['email'];
 					$mob = $row['phone'];
 					$symbol = $row['stock_symbol'];
 				?>	
+					<form class="form-horizontal" action="authenticate.php" method="post" enctype="multipart/form-data">
 					<tr>
 						<td><?php echo htmlentities($cnt);?></td>
 						<td><input type="hidden" name="stock_symbol"><?php echo htmlentities($row['stock_symbol']);?></td>
 						<td><input type="hidden" name="stock_price"><?php echo htmlentities($row['stock_price']);?></td>
-						<td><input type="hidden" name="stock_price"><?php shortcode(['type' => 'single', 'symbol' => '', 'template' => 'basic', 'fields' => 'quote.regularMarketPrice', 'color' => 'gray']); ?></td>
-						<td></td>
+						
 						<td><input type="hidden" name="stock_qty"><?php echo htmlentities($row['stock_qty']);?></td>
 						<td><input type="hidden" name="stock_tprice"><?php echo htmlentities($row['stock_tprice']);?></td>
 						<td><input type="hidden" name="stock_date"><?php echo htmlentities($row['stock_date']);?></td>
+						<td><input type="hidden" name="current_price"><?php shortcode(['type' => 'single', 'symbol' => $symbol, 'template' => 'basic', 'fields' => 'quote.regularMarketPrice', 'color' => 'gray']); ?></td>
 						<td>
 						<?php
-						if($row['stock_type'] == 'BUY')
+						/*if($row['stock_type'] == 'BUY')
 						{
 							echo'<button type="submit"
-                                        class="btn waves-effect waves-light btn-danger" name="submit_sell"><a href="#register-modal" data-toggle="modal" data-target="#register-modal">SELL</a></button>';
-						}
-						else
-						{
-							echo'<button type="submit"
-                                        class="btn waves-effect waves-light btn-success" name="submit_buy"><a href="#login-modal" data-toggle="modal" data-target="#login-modal">BUY</a></button>';
-						}
+                                        class="btn waves-effect waves-light btn-danger" name="sell"><a href="#register-modal" data-toggle="modal" data-target="#register-modal">SELL</a></button>';
+						}*/
 						?>								
 						</td>
-					</tr> 
-				<?php  $cnt=$cnt+1;} ?>									
+					</tr>
+					</form>
+				<?php  $cnt=$cnt+1;} ?>								
 												</tbody>
 											</table>
 											<?php include("modal.php"); ?>

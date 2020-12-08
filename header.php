@@ -24,16 +24,16 @@
               <a href="#" class="nav-link">Home</a>             
             </li>
             <li class="nav-item">
-              <a href="about-us.html" class="nav-link">Why Broking India</a>
+              <a href="about-us.php" class="nav-link">Why Broking India</a>
             </li>
             <li class="nav-item">
-              <a href="about-us.html" class="nav-link">Tools & Platform</a>
+              <a href="about-us.php" class="nav-link">Tools & Platform</a>
             </li>
 			<li class="nav-item">
-              <a href="about-us.html" class="nav-link">Investment Products</a>
+              <a href="about-us.php" class="nav-link">Investment Products</a>
             </li>
 			<li class="nav-item">
-              <a href="about-us.html" class="nav-link">Guidance</a>
+              <a href="about-us.php" class="nav-link">Guidance</a>
             </li>
             <li class="nav-item">
               <a href="contact.html" class="nav-link">Contact Us</a>

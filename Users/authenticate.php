@@ -190,8 +190,6 @@ $stock_balance = $balance + $stock_tprice;
 $sql="insert into user_stock(stock_type,stock_symbol,stock_price,stock_qty,stock_tprice,stock_date,user_id) 
 values('SELL','$stock_symbol','$stock_price','$stock_qty','$stock_tprice','$stock_date','$user_id')";
 $sqlu="update users set balance='$stock_balance' where email='$user_id'";
-
-
 if(mysqli_query($bd, $sql) && mysqli_query($bd, $sqlu)){
 header('Location: orders.php');
 } 
@@ -199,7 +197,12 @@ else{
     echo "ERROR: Could not able to execute $sql , $sqlu" . mysqli_error($bd);
 }	
 }
-// Profile
+
+
+
+
+
+//User Profile
    if(isset($_POST['submit_profile']))
 {
 $fname = mysqli_real_escape_string($bd,$_POST['fname']);
