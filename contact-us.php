@@ -5,13 +5,13 @@
 <link rel="stylesheet" href="assets/css/bundle.min.css" />
 </head>
 <body>
-<?php include("header-inner.php"); ?> 
+<?php include("header.php"); ?> 
   <!-- Breadcrumb Area Start -->
-  <nav class="breadcrumb-area bg-dark bg-6 pt-60 pb-30">
-    <div class="container d-md-flex">
+  <nav class="breadcrumb-area  bg-6 pt-60 pb-30">
+    <div class="container dark d-md-flex">
       <h2 class="text-white mb-0">Contact Us</h2>
-      <ol class="breadcrumb p-0 m-0 bg-dark ml-auto">
-        <li class="breadcrumb-item"><a href="index.html">Home</a> <span class="text-white">/</span></li>
+      <ol class="breadcrumb p-0 m-0 dark ml-auto text-white">
+        <li class="breadcrumb-item">Home<span class="text-white">/</span></li>
         <li aria-current="page" class="breadcrumb-item active">Contact Us</li>
       </ol>
     </div>

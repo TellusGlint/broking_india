@@ -18,10 +18,10 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="index.html" class="nav-link"></a>
+              <a href="index.php" class="nav-link"></a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>             
+              <a href="index.php" class="nav-link">Home</a>             
             </li>
             <li class="nav-item">
               <a href="about-us.php" class="nav-link">Why Broking India</a>
@@ -36,7 +36,7 @@
               <a href="about-us.php" class="nav-link">Guidance</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact Us</a>
+              <a href="contact-us.php" class="nav-link">Contact Us</a>
             </li>
           </ul>
           <div class="pl-20">
