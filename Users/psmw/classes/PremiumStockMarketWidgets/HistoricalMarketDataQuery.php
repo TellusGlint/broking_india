@@ -8,7 +8,7 @@ class HistoricalMarketDataQuery extends MarketDataQueryBulk {
     $serverNumber = $env->randomServer ? rand(1,2) : 1;
     $this->type = 'history';
     $this->maxCacheTime = 300; // 5 minutes
-    $this->dataUrl = 'https://query'.$serverNumber.'.finance.yahoo.com/v7/finance/spark?symbols=%s&range=%s&interval=%s&indicators=close';
+    $this->dataUrl = 'http://query'.$serverNumber.'.finance.yahoo.com/v7/finance/spark?symbols=%s&range=%s&interval=%s&indicators=close';
     $this->resultPropertyPath = 'spark.result';
   }
 

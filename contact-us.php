@@ -21,7 +21,7 @@
 		  <!-- Contact Area Start -->
   <section class="contact-area section-ptb white-bg">
     <div class="container">
-      <div class="row  d-flex align-items-center">
+      <div class="row  d-flex">
         <div class="col-12 col-md-6 col-lg-7 ">
           <div class="contact-form">
             <h2>Leave a Message</h2>
@@ -46,8 +46,7 @@
             <h2>Contact Info</h2>
             <hr class="line line-sm">
             <ul class="list-unstyled">
-              <li><span>Phone:</span> <a href="tel:+98-589-698-589">+91 80- 4122 9695</a></li>
-			  <li><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </span> <a href="fax:58-598-575">+91 80- 4150 6620</a></li>
+              <li><span>Phone:</span> <a href="tel:+98-589-698-589">+91 80- 4122 9695 / 80- 4150 6620</a></li>
               <li><span>Email:</span> <a href="mailto:info@brokingindia.com">info@brokingindia.com </a></li>
               
             </ul>
